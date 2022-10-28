@@ -1,0 +1,135 @@
+html {
+  background: radial-gradient(circle, #fff, rgb(142, 142, 142));
+  height: 100%;
+}
+html #main {
+  position: relative;
+  height: 640px;
+  width: 730px;
+  background-color: rgb(53, 130, 130);
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px rgb(14, 20, 20);
+}
+html #main #score {
+  display: none;
+  background-color: rgb(126, 187, 187);
+  float: right;
+  font-family: poppins;
+  margin: 15px 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 2px solid rgb(0, 86, 86);
+  box-shadow: 2px 2px 5px rgb(57, 86, 86);
+}
+html #main #correct {
+  display: none;
+  position: absolute;
+  left: 39.5%;
+  color: rgb(118, 235, 0);
+  margin: 5px;
+  font-size: 34px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: poppins;
+}
+html #main #wrong {
+  display: none;
+  color: #f21137;
+  position: absolute;
+  left: 36.8%;
+  margin: 5px;
+  font-size: 34px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: poppins;
+}
+html #main #time {
+  display: none;
+  background-color: rgb(169, 241, 155);
+  width: 330px;
+  margin: 10px auto 0px;
+  padding: 15px;
+  font-size: 23px;
+  border-radius: 5px;
+  font-family: poppins;
+  text-align: center;
+  margin: 90px auto 0px auto;
+}
+html #main #question {
+  display: none;
+  box-shadow: 4px 4px 15px rgb(85, 105, 105);
+  margin: 10px auto 0px auto;
+  width: 550px;
+  border-radius: 10px;
+  font-size: 7rem;
+  text-align: center;
+  background-color: rgb(219, 255, 255);
+  font-family: poppins;
+}
+html #main #instruction {
+  display: none;
+  background-color: rgb(242, 141, 104);
+  width: 530px;
+  margin: 10px auto 0px;
+  padding: 15px;
+  font-size: 23px;
+  border-radius: 5px;
+  font-family: poppins;
+  text-align: center;
+  box-shadow: 4px 4px 15px rgb(82, 73, 66);
+}
+html #main #boxes {
+  height: 130px;
+  width: 600px;
+  display: flex;
+  margin: 10px auto;
+}
+html #main #boxes .box {
+  display: none;
+  height: 100%;
+  width: 25%;
+  box-shadow: 4px 4px 15px rgb(35, 72, 70);
+  background-color: #fff;
+  margin: 0px 10px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 130px;
+  border-radius: 10px;
+  font-family: poppins;
+  transition: all 0.3s;
+}
+html #main #boxes .box:hover {
+  cursor: pointer;
+  background-color: rgb(126, 187, 187);
+}
+html #main #boxes .box:active {
+  cursor: pointer;
+  margin-top: 6px;
+  box-shadow: 0px 0px 0px;
+}
+html #main #button {
+  font-size: 20px;
+  font-family: poppins;
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(242, 141, 104);
+  border: 0px solid rgb(120, 71, 53);
+  border-radius: 5px;
+  margin: 10px auto;
+  position: relative;
+  box-shadow: 4px 4px 15px rgb(35, 72, 70);
+  left: 40%;
+  transition: all 0.3s;
+}
+html #main #button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+html #main #button:active {
+  cursor: pointer;
+  margin-top: 16px;
+  box-shadow: 0px 0px 0px;
+}
